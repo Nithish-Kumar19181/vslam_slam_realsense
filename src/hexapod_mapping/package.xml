@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>hexapod_mapping</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="saieswaram@todo.todo">saieswaram</maintainer>
+  <license>TODO: License declaration</license>
+
+  <depend>rclpy</depend>  <!-- Dependency for ROS 2 Python client library -->
+  <depend>launch</depend>  <!-- Dependency for launch system -->
+  <depend>launch_ros</depend>  <!-- Dependency for ROS 2 launch integration -->
+  <depend>sensor_msgs</depend>  <!-- Dependency if using messages like sensor_msgs/Joy -->
+  <depend>geometry_msgs</depend>  <!-- Dependency if using messages like geometry_msgs/Vector3 -->
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
